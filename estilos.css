@@ -1,0 +1,60 @@
+:root {
+    --gold: #ffc107;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.95);
+    border-bottom: 2px solid var(--gold);
+}
+
+.nav-logo {
+    height: 60px;
+}
+
+.btn-wa-javy {
+    background-color: #25d366;
+    color: white !important;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-wa-javy:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
+
+/* Hero con Cassette Naranja */
+.hero-javy {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1470');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid var(--gold);
+}
+
+.hero-logo-main {
+    width: 260px;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.7));
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.social-box a:hover {
+    color: var(--gold) !important;
+}
